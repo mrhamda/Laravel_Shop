@@ -159,7 +159,6 @@ export default function View() {
 
                 {myItems.length !== 0 && (
                     <div className="flex w-full max-w-md flex-col items-center justify-center space-y-4">
-                        {/* Success Message */}
                         <span className="text-lg font-bold">Total: {totalCost} SEK</span>
                         <div id="paypal-success" className="hidden w-full rounded bg-green-100 p-4 text-green-800 shadow">
                             You have paid for the items: Check your gmail for more information
